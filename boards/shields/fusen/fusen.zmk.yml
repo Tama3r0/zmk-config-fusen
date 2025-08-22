@@ -1,0 +1,11 @@
+file_format: "1"
+id: fusen
+name: fusen
+type: shield
+url: https://github.com/Tama3r0/zmk-config-fusen
+requires: [seeeduino_xiao_ble]
+feature:
+  - keys
+siblings:
+  - fusen_left
+  - fusen_right
