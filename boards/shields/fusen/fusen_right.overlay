@@ -1,0 +1,18 @@
+#include "fusen.dtsi"
+
+%default_transform {
+    col-offset = <3>;
+};
+
+&kscan0 {
+    row-gpios
+        = <&xiao_d X (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+        , <&xiao_d X (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+        , <&xiao_d X (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 		
+        ;  
+    col-gpios
+        = <&xiao_d X GPIO_ACTIVE_HIGH>
+        , <&xiao_d X GPIO_ACTIVE_HIGH>
+        , <&xiao_d X GPIO_ACTIVE_HIGH>
+        ;
+};
