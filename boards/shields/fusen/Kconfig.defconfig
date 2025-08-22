@@ -1,0 +1,28 @@
+if SHIELD_FUSEN_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Fusen"
+
+config ZMK_SPLIT
+    default y
+
+config INPUT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_FUSEN_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Fusen_R"
+
+config ZMK_SPLIT
+    default y
+
+config INPUT
+    default y
+
+endif
