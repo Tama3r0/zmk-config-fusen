@@ -1,0 +1,4 @@
+config SHIELD_FUSEN_LEFT
+    def_bool $(shield_list_contains,fusen_left)
+config SHIELD_FUSEN_RIGHT
+    def_bool $(shield_list_contains,fusen_right)
