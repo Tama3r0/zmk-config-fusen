@@ -13,9 +13,9 @@
         columns = <6>;
         rows = <3>;
         map = <
-                RC(,)   RC(,)   RC(,)   RC(,)   RC(,)   RC(,)
-        RC(,)   RC(,)   RC(,)   RC(,)   RC(,)   RC(,)   RC(,)   RC(,)
-                        RC(,)   RC(,)   RC(,)   RC(,)
+                  RC(0,2)   RC(0,1)   RC(0,0)   RC(,)   RC(,)   RC(,)
+        RC(2,2)   RC(1,2)   RC(1,1)   RC(1,0)   RC(,)   RC(,)   RC(,)   RC(,)
+                            RC(2,1)   RC(2,0)   RC(,)   RC(,)
         >;
     };
 
