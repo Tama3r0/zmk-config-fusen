@@ -6,9 +6,6 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-config INPUT
-    default y
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
@@ -20,9 +17,6 @@ config ZMK_KEYBOARD_NAME
     default "Fusen_R"
 
 config ZMK_SPLIT
-    default y
-
-config INPUT
     default y
 
 endif
