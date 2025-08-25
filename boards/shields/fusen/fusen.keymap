@@ -60,7 +60,7 @@
             bindings = <&kp PERIOD>;
         };
 
-   　   combo_esc {
+        combo_esc {
             key-positions = <0 6>;
             bindings = <&kp ESC>;
         };
