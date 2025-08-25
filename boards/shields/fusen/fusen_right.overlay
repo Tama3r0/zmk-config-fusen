@@ -1,6 +1,6 @@
 #include "fusen.dtsi"
 
-%default_transform {
+&default_transform {
     col-offset = <3>;
 };
 
