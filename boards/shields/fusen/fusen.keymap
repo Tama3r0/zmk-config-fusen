@@ -32,28 +32,11 @@
 &key_repeat {
 };
 
-/{
-    // 入力調整
-    behaviors {
-    };
-
-    macros {
-    };
-
-    conditional_layers {
-    };
-
-    // コンボの定義部
+/ {
     combos {
         compatible = "zmk,combos";
         timeout-ms = <100>;
         require-prior-idle-ms = <150>;
-
-    // 書き方
-    //  combo_名前 {
-    //      key-positions = < 場所,場所,...>+
-    //      bindings = <内容>;
-    //  };
 
         combo_lang2 {
             key-positions = <7 8 9>;
@@ -76,6 +59,7 @@
             key-positions = <11 16>;
             bindings = <&kp PERIOD>;
         };
+
    　   esc {
             key-positions = <0 6>;
             bindings = <&kp ESC>;
@@ -258,7 +242,7 @@
 
 
     };
-    };
+
     keymap {
         compatible = "zmk,keymap";
 
