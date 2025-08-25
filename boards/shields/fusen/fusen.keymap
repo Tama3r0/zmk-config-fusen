@@ -60,78 +60,78 @@
             bindings = <&kp PERIOD>;
         };
 
-   　   esc {
+   　   combo_esc {
             key-positions = <0 6>;
             bindings = <&kp ESC>;
         };
 
-        q {
+        combo_q {
             bindings = <&kp Q>;
             key-positions = <0 2>;
             layers = <0>;
         };
 
-        x {
+        combo_x {
             bindings = <&kp X>;
             key-positions = <1 2>;
             layers = <0>;
         };
 
-        l {
+        combo_l {
             bindings = <&kp L>;
             key-positions = <3 5>;
             layers = <0>;
         };
 
-        p {
+        combo_p {
             bindings = <&kp P>;
             key-positions = <3 4>;
             layers = <0>;
         };
 
-        m {
+        combo_m {
             bindings = <&kp M>;
             key-positions = <4 5>;
             layers = <0>;
         };
 
-        j {
+        combo_j {
             bindings = <&kp J>;
             key-positions = <5 13>;
             layers = <0>;
         };
 
-        c {
+        combo_c {
             bindings = <&kp C>;
             key-positions = <7 8>;
             layers = <0>;
         };
 
-        v {
+        combo_v {
             bindings = <&kp V>;
             key-positions = <8 9>;
             layers = <0>;
         };
 
-        w {
+        combo_w {
             bindings = <&kp W>;
             key-positions = <10 12>;
             layers = <0>;
         };
 
-        z {
+        combo_z {
             bindings = <&kp Z>;
             key-positions = <10 11>;
             layers = <0>;
         };
 
-        g {
+        combo_g {
             bindings = <&kp G>;
             key-positions = <11 12>;
             layers = <0>;
         };
 
-        d {
+        combo_d {
             bindings = <&kp D>;
             key-positions = <12 13>;
             layers = <0>;
@@ -143,98 +143,98 @@
             layers = <0>;
         };
 
-        lbkt {
+        combo_lbkt {
             bindings = <&kp LBKT>;
             key-positions = <2 15>;
             layers = <0>;
         };
 
-        rbkt {
+        combo_rbkt {
             bindings = <&kp RBKT>;
             key-positions = <3 16>;
             layers = <0>;
         };
 
     
-        n3 {
+        combo_n3 {
             bindings = <&kp N3>;
             key-positions = <10 11>;
             layers = <1>;
         };
 
-        n5 {
+        combo_n5 {
             bindings = <&kp N5>;
             key-positions = <10 12>;
             layers = <1>;
         };
 
-        n6 {
+        combo_n6 {
             bindings = <&kp N6>;
             key-positions = <11 12>;
             layers = <1>;
         };
 
-        n7 {
+        combo_n7 {
             bindings = <&kp N7>;
             key-positions = <10 11 12>;
             layers = <1>;
         };
 
-        n9 {
+        combo_n9 {
             bindings = <&kp N9>;
             key-positions = <10 13>;
             layers = <1>;
         };
 
-        n0 {
+        combo_n0 {
             bindings = <&kp N0>;
             key-positions = <11 13>;
             layers = <1>;
         };
 
-        f3 {
+        combo_f3 {
             bindings = <&kp F3>;
             key-positions = <10 11>;
             layers = <2>;
         };
 
-        f5 {
+        combo_f5 {
             bindings = <&kp F5>;
             key-positions = <10 12>;
             layers = <2>;
         };
 
-        f6 {
+        combo_f6 {
             bindings = <&kp F6>;
             key-positions = <11 12>;
             layers = <2>;
         };
 
-        f7 {
+        combo_f7 {
             bindings = <&kp F7>;
             key-positions = <10 11 12>;
             layers = <2>;
         };
 
-        f9 {
+        combo_f9 {
             bindings = <&kp F9>;
             key-positions = <10 13>;
             layers = <2>;
         };
 
-        f10 {
+        combo_f10 {
             bindings = <&kp F10>;
             key-positions = <11 13>;
             layers = <2>;
         };
 
-        f11 {
+        combo_f11 {
             bindings = <&kp F11>;
             key-positions = <10 11 13>;
             layers = <2>;
         };
 
-        f12 {
+        combo_f12 {
             bindings = <&kp F12>;
             key-positions = <12 13>;
             layers = <2>;
