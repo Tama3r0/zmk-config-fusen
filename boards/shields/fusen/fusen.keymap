@@ -248,9 +248,9 @@
 
         layer_base{
             bindings = <
-                           &kp Q       &mt LGUI U       &kp Y            &kp B            &mt RGUI N          &kp R
-        &mt LSHIFT O       &kp I       &kp A            &kp E            &kp S            &kp K               &mt RALT H       &mt RSHIFT T
-                                       &kp BSPC         &lt 2 SPACE      &lt 1 RET        &mt RCTRL TAB
+                   &kp Q       &mt LGUI U       &kp Y            &kp B            &mt RGUI N          &kp R
+&mt LSHIFT O       &kp I       &kp A            &kp E            &kp S            &kp K               &mt RALT H       &mt RSHIFT T
+                               &kp BSPC         &lt 2 KC_SPACE      &lt 1 RET        &mt RCTRL TAB
             >;
         };
         layer_1{
