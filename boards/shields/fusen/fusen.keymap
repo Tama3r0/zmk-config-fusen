@@ -267,4 +267,5 @@
                   &trans    &trans      &trans  &trans
             >;
         };
+    };
 };
