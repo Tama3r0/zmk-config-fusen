@@ -1,9 +1,6 @@
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 
 // 特殊な入力法
 
@@ -49,7 +46,7 @@
             bindings = <&kp LANG1>;
             layers = <0>;
         };
-        
+
         combo_comma {
             key-positions = <10 16>;
             bindings = <&kp COMMA>;
@@ -139,7 +136,7 @@
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <12  16>;
+            key-positions = <16 10 11>;
             layers = <0>;
         };
 
@@ -155,7 +152,6 @@
             layers = <0>;
         };
 
-    
         combo_n3 {
             bindings = <&kp N3>;
             key-positions = <10 11>;
@@ -240,31 +236,43 @@
             layers = <2>;
         };
 
+        combo_question {
+            bindings = <&kp QUESTION>;
+            key-positions = <16 12>;
+            layers = <0>;
+        };
 
+        combo_exc {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <16 13>;
+            layers = <0>;
+        };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        layer_base{
+        layer_base {
             bindings = <
-                   &kp Q       &mt LGUI U       &kp Y            &kp B            &mt RGUI N          &kp R
-&mt LSHIFT O       &kp I       &kp A            &kp E            &kp S            &kp K               &mt RALT H       &mt RSHIFT T
-                               &kp BSPC         &lt 2 SPACE      &lt 1 RET        &mt RCTRL TAB
+              &kp Q  &mt LGUI U  &kp Y          &kp B      &mt RGUI N     &kp R
+&mt LSHIFT O  &kp I  &kp A       &kp E          &kp S      &kp K          &mt RALT H  &mt RSHIFT T
+                     &kp BSPC    &lt 2 SPACE    &lt 1 RET  &mt RCTRL TAB
             >;
         };
-        layer_1{
+
+        layer_1 {
             bindings = <
-            &kp LGUI    &kp FSLH    &kp BSLH        &kp PLUS        &kp STAR       &kp MINUS
-&kp LSHIFT  &kp LALT    &kp LCTRL   &none           &kp N1          &kp N2         &kp N4      &kp N8
-                        &kp DEL     &trans          &trans          &trans
+            &kp LGUI  &kp FSLH   &kp BSLH    &kp PLUS  &kp STAR  &kp MINUS
+&kp LSHIFT  &kp LALT  &kp LCTRL  &none       &kp N1    &kp N2    &kp N4     &kp N8
+                      &kp DEL    &trans      &trans    &trans
             >;
         };
+
         layer_2 {
             bindings = <
-        &trans    &kp UP    &none       &none   &none   &none
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT   &kp F1  &kp F2  &kp F4  &kp F8
-                  &trans    &trans      &trans  &trans
+        &trans    &kp UP    &none        &none   &none   &none
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT    &kp F1  &kp F2  &kp F4  &kp F8
+                  &trans    &trans       &trans  &trans
             >;
         };
     };
