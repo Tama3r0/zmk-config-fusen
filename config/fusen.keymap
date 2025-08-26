@@ -50,13 +50,13 @@
         combo_comma {
             key-positions = <10 16>;
             bindings = <&kp COMMA>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         combo_period {
             key-positions = <11 16>;
             bindings = <&kp PERIOD>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         combo_esc {
@@ -264,9 +264,9 @@
 
         layer_1 {
             bindings = <
-            &kp LGUI  &kp FSLH   &kp BSLH    &kp PLUS  &kp STAR  &kp MINUS
-&kp LSHIFT  &kp LALT  &kp LCTRL  &none       &kp N1    &kp N2    &kp N4     &kp N8
-                      &kp DEL    &trans      &trans    &trans
+            &kp LGUI  &kp FSLH   &kp BSLH       &kp PLUS  &kp STAR  &kp MINUS
+&kp LSHIFT  &kp LALT  &kp LCTRL  &kp AT_SIGN    &kp N1    &kp N2    &kp N4     &kp N8
+                      &kp DEL    &trans         &trans    &trans
             >;
         };
 
