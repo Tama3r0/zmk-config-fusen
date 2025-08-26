@@ -50,11 +50,13 @@
         combo_comma {
             key-positions = <10 16>;
             bindings = <&kp COMMA>;
+            layers = <0>;
         };
 
         combo_period {
             key-positions = <11 16>;
             bindings = <&kp PERIOD>;
+            layers = <0>;
         };
 
         combo_esc {
