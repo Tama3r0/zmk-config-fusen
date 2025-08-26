@@ -249,6 +249,12 @@
             key-positions = <16 13>;
             layers = <0>;
         };
+
+        combo_caret {
+            bindings = <&kp CARET>;
+            key-positions = <10 4 12>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -264,15 +270,15 @@
 
         layer_1 {
             bindings = <
-            &kp LGUI  &kp FSLH   &kp BSLH       &kp PLUS  &kp STAR  &kp MINUS
-&kp LSHIFT  &kp LALT  &kp LCTRL  &kp AT_SIGN    &kp N1    &kp N2    &kp N4     &kp N8
-                      &kp DEL    &trans         &trans    &trans
+            &kp LEFT_ALT  &kp FSLH   &kp BSLH       &kp PLUS  &kp STAR  &kp MINUS
+&kp LSHIFT  &kp LEFT_GUI  &kp LCTRL  &kp AT_SIGN    &kp N1    &kp N2    &kp N4     &kp N8
+                          &kp DEL    &trans         &trans    &trans
             >;
         };
 
         layer_2 {
             bindings = <
-        &trans    &kp UP    &none        &none   &none   &none
+        &trans    &kp UP    &kp LCTRL    &none   &none   &none
 &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &kp F1  &kp F2  &kp F4  &kp F8
                   &trans    &trans       &trans  &trans
             >;
