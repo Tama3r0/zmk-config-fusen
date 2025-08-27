@@ -81,7 +81,7 @@
 
         combo_period {
             key-positions = <11 16>;
-            bindings = <&kp PERIOD>;
+            bindings = <&kp DOT>;
         };
 
         combo_esc {
@@ -168,13 +168,13 @@
         };
 
         combo_lbkt {
-            bindings = <&kp LBKT>;
+            bindings = <&kp JP_LBRACKET>;
             key-positions = <2 15>;
             layers = <0>;
         };
 
         combo_rbkt {
-            bindings = <&kp RBKT>;
+            bindings = <&kp JP_RBRACKET>;
             key-positions = <3 16>;
             layers = <0>;
         };
@@ -263,7 +263,28 @@
             key-positions = <12 13>;
             layers = <2>;
         };
+        combo_qmark {
+            key-positions = <12 16>;
+            bindings = <&kp QMARK>;
+            layers = <0>;
+        };
 
+        combo_excl {
+            key-positions = <12 16>;
+            bindings = <&kp EXCL>;
+            layers = <0>;
+        };
+
+        combo_caret {
+            key-positions = <4 10 12>;
+            bindings = <&kp JP_CARET>;
+            layers = <0>;
+        };
+        combo_eqal {
+            key-positions = <12 16>;
+            bindings = <&kp JP_EQUAL>;
+            layers = <1>;
+        };
 
     };
 
