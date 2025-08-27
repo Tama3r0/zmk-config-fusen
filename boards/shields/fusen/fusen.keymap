@@ -300,8 +300,8 @@
         };
         layer_1{
             bindings = <
-            &kp LGUI    &kp FSLH    &kp BSLH        &kp PLUS        &kp STAR       &kp MINUS
-&kp LSHIFT  &kp LALT    &kp LCTRL   &none           &kp N1          &kp N2         &kp N4      &kp N8
+            &kp LGUI    &kp FSLH    &kp BSLH        &kp JP_PLUS        &kp JP_ASTERISK       &kp MINUS
+&kp LSHIFT  &kp LALT    &kp LCTRL   &JP_AT           &kp N1          &kp N2         &kp N4      &kp N8
                         &kp DEL     &trans          &trans          &trans
             >;
         };
